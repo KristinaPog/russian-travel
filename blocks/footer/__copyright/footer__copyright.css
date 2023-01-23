@@ -1,0 +1,15 @@
+.footer__copyright {
+  font-size: 14px;
+  line-height: 1.14;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width:767px){
+  .footer__copyright {
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 1;
+  }
+}
