@@ -1,7 +1,12 @@
 .place__website {
   grid-area: website;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 12px;
   -ms-grid-row-align: end;
       align-self: end;

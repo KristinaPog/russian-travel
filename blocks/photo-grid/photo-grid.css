@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0;
   margin-top: 92px;
+  display: -ms-grid;
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
@@ -27,6 +28,7 @@
   .photo-grid {
     gap: 12px;
     margin-top: 64px;
+    padding: 0 16px;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   }
 } 
