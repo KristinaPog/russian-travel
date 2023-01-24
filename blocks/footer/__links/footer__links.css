@@ -1,6 +1,4 @@
 .footer__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 18px;  
   list-style: none;
@@ -10,10 +8,7 @@
 
 @media (max-width:640px){
   .footer__links {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 32px;
   }
 }

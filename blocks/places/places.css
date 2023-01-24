@@ -2,6 +2,8 @@
   max-width: 984px;
   margin: 0 auto;
   margin-top: 91px;
+  list-style: none;
+  padding: 0;
 }
 
 @media(max-width:1279px){

@@ -1,10 +1,7 @@
 .place {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.96fr 40px 1fr;
   grid-template-columns: 0.96fr 1fr;
-  -ms-grid-rows: auto 48px auto;
-      grid-template-areas:
+  grid-template-areas:
   "title website"
   "image paragraph";
   grid-gap: 48px 40px;
@@ -26,10 +23,8 @@
 
 @media (max-width:640px){
   .place {
-    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    -ms-grid-rows: auto 32px auto 32px auto 32px auto;
-        grid-template-areas:
+    grid-template-areas:
     "title" 
     "website"
     "image" 
