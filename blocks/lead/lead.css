@@ -1,6 +1,5 @@
 .lead{
-  margin: 0 auto;
-  margin-top: 52px;
+  margin: 52px auto 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
