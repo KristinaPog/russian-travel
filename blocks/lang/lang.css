@@ -2,9 +2,11 @@
   display: flex;
   gap: 18px;
   font-size: 24px;
+  font-weight: 400;
   line-height: 1.17;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  list-style: none;
 }
 
 @media (max-width:767px){

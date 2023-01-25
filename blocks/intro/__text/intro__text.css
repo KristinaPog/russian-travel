@@ -7,10 +7,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
-@media (max-width: 767px){
-  .intro__text{
-    line-height: 1.62;
-  }
-}
